@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background-color: #fff7e6;
+    color: #333;
+  }
+  
+header {
+    background-color: #f76c5e;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+.div1 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+  }
+  
+.children {
+    background-color: #fff8dc;
+    border-radius: 12px;
+    padding: 1rem;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+.children img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+.children h2 {
+    font-size: 1.4rem;
+    margin: 0.5rem 0;
+    color: #4a2c2a;
+  }
+  
+.price {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+.vote-section {
+    background-color: #31c6d4;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    margin: 2rem;
+    border-radius: 16px;
+  }
+  
+.vote-section h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+  
+.vote-section input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 6px;
+    width: 200px;
+  }
+  
+.vote-section button {
+    background-color: #f76c5e;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    margin-left: 0.5rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: block;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+
+nav ul li.dropdown {
+    position: relative;
+}
+
+nav ul li.dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+}
+
+nav ul li.dropdown:hover .dropdown-content {
+    display: block; 
+}
+
+nav ul li.dropdown .dropdown-content li {
+    display: block;
+    padding: 10px;
+}
+
+nav ul li.dropdown .dropdown-content li a {
+    padding: 10px 15px;
+}
+
+nav ul li.dropdown .dropdown-content li a:hover {
+    background-color: #555;
+}
